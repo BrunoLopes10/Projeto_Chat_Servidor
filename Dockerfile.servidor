@@ -1,0 +1,6 @@
+FROM openjdk:11
+WORKDIR /app
+COPY Servidor.java  .
+RUN javac Servidor.java
+EXPOSE 8080
+CMD ["java", "Servidor"]

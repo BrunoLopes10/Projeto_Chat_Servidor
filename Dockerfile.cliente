@@ -1,0 +1,6 @@
+FROM openjdk:11 
+WORKDIR /app
+COPY Cliente.java  .
+RUN javac Cliente.java
+EXPOSE 8080
+CMD ["java", "Cliente"]
