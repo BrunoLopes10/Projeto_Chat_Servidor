@@ -4,6 +4,4 @@ Para rodar o servidor, digite no terminal ou no cmd da pasta que se econtra o cÃ
 docker run -it srv
 
 Para rodar o cliente, digite no terminal ou no cmd da pasta que se encontra o cÃ³digo:
-docker run -it <nome-img> Java Cliente 172.17.0.2 8080
-                   /\
-                  cli
+docker run -it cli Java Cliente 172.17.0.2 8080
